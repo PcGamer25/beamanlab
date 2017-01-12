@@ -1,0 +1,10 @@
+NAV
+	Background: #448aff
+BLACK
+	Text: #eeeeee
+	Background: #000
+	Box: #e0e0e0
+GREY
+	Text: #eeeeee
+	Background: #424242
+	Box: #eeeeee
