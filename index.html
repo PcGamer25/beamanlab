@@ -53,21 +53,21 @@
 								<article class="box2 style1">
 									<a class="image featured"><img src="images/local.png" alt="" /></a>
 									<h3>Local</h3>
-									<p1>No need to ship out your orders and pray they return as desired on time. We will pick-up and deliver your orders for you conveniently.</p1>
+									<p1>No need to go through the hassle of shipping out orders and praying they return as desired on time. We'll pick-up and deliver for you conveniently.</p1>
 								</article>
 							</div>
 							<div class="4u 12u(mobile)">
 								<section class="box2 style1">
 									<a class="image featured"><img src="images/comfort.png" alt="" /></a>
 									<h3>Comfort</h3>
-									<p1>Great detail is paid to the edges of retainers and appliances to ensure it interferes as little as possible with the patients mouth for max comfort.</p1>
+									<p1>Great attention is paid to the edges of retainers and appliances to ensure it interferes as little as possible with the patients mouth for max comfort.</p1>
 								</section>
 							</div>
 							<div class="4u 12u(mobile)">
 								<section class="box2 style1">
 									<a class="image featured"><img src="images/strong.png" alt="" /></a>
 									<h3>Strong</h3>
-									<p1>Soldering is performed in a clean environment with the proper prepping of components to eliminate contaminants for a strong, solid joint.</p1>
+									<p1>Soldering is performed in a clean environment with the proper preparation of parts to minimize contaminants for a strong, solid joint.</p1>
 								</section>
 							</div>
 						</div>
@@ -176,24 +176,25 @@
 					<div>
 						<div class="row">
 							<div class="12u">
-								<form method="post" action="#">
+								<form method="post" action="http://formspree.io/beamanlab@gmail.com">
 									<div>
+                                        <input type="text" name="_gotcha" style="display:none" />
 										<div class="row">
 											<div class="6u 12u(mobile)">
-												<input type="text" name="name" id="name" placeholder="Name" />
+												<input type="text" name="Name" id="name" placeholder="Name" />
 											</div>
 											<div class="6u 12u(mobile)">
-												<input type="text" name="email" id="email" placeholder="Email" />
+												<input type="text" name="_replyto" id="email" placeholder="Email" />
 											</div>
 										</div>
 										<div class="row">
 											<div class="12u">
-												<input type="text" name="subject" id="subject" placeholder="Subject" />
+												<input type="text" name="_subject" id="subject" placeholder="Subject" />
 											</div>
 										</div>
 										<div class="row">
 											<div class="12u">
-												<textarea name="message" id="message" placeholder="Message"></textarea>
+												<textarea name="Message" id="message" placeholder="Message"></textarea>
 											</div>
 										</div>
 										<div class="row 200%">
@@ -201,6 +202,8 @@
 												<ul class="actions">
 													<li><input type="submit" value="Send Message" /></li>
 													<li><input type="reset" value="Clear Form" class="alt" /></li>
+                                                    <input type="hidden" name="_next" value="thanks.html" />
+                                                    <input type="hidden" name="_format" value="plain" />
 												</ul>
 											</div>
 										</div>
