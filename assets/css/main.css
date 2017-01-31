@@ -1638,6 +1638,7 @@
 			.wrapper.style4 form input[type=password],
 			.wrapper.style4 form select,
 			.wrapper.style4 form textarea {
+                resize: none;
 				border: none;
 				background: #282828;
 			}
