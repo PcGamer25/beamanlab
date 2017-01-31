@@ -50,11 +50,11 @@
 		// Scrolly.
 			$window.load(function() {
 
-				var x = parseInt($('.wrapper').first().css('padding-top')) - 15;
+//				var x = parseInt($('.wrapper').first().css('padding-top')) -100;
 
 				$('#nav a, .scrolly').scrolly({
 					speed: 1000,
-					offset: x
+//					offset: x
 				});
 
 			});
